@@ -1,12 +1,38 @@
 <!doctype html>
-<html>
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset="utf-8">
-    <title>Jim's Awesome Website</title>
-  </head>
-  <body>
-     <h1>{{ page.title }}</h1>
-     {% include navigation.html %}     
-     {{ content }}
-  </body>
+     <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+        <meta charset="utf-8">
+        <title>Jim's Awesome Website</title>
+        {% seo %}
+           <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+           <!--[if lt IE 9]>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+           <![endif]-->  
+   </head>
+
+    <body>
+       <div class="wrapper">
+          <header>
+		  <h1><a href="{{ "/index.html" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>      
+             {% if site.logo %}
+             <img src="{{site.logo | relative_url}}" alt="Logo" />
+             {% endif %}	     
+             <p>{{ site.description | default: site.github.project_tagline }}</p>      
+	     {% include navigation.html %}     
+	  </header>
+          <section>
+             {{ content }}
+          </section>
+          <footer>
+             <h3>dic3jam@gmail.com</h3>
+             <a href="https://www.instagram.com/dic3jam/"><img src="images/insta.jpg" class="social" alt="instagram link"></a> 
+             <a href="https://www.linkedin.com/in/james-dicesare-93b80298/"><img src="images/linkedin.jpg" class="social" alt="linkedin link"></a>
+	     <a href="https://github.com/dic3jam"><img src="images/github.jpg" class="social" alt="Github link"></a>
+          </footer>
+      </div>
+    </body>
+
 </html>
