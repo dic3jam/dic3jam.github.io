@@ -1,0 +1,498 @@
+{
+  "id": "a68554b7-7f7a-4477-9836-12a9582794be",
+  "version": "2.0",
+  "name": "Awesome Website Testing",
+  "url": "https://dic3jam.github.io/photography.html",
+  "tests": [{
+    "id": "112deb0a-3e2c-40d0-be28-122ac6749f26",
+    "name": "home - instagram",
+    "commands": [{
+      "id": "f79eb40c-883c-4e1f-91a7-342d33f73526",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "789a66a3-efee-4952-9c56-16654ae8ba8c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "799ff141-43f1-46df-9659-35b3688200a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) > .social",
+      "targets": [
+        ["css=a:nth-child(2) > .social", "css:finder"],
+        ["xpath=//img[@alt='instagram link']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "55cebbe0-296a-4f69-81c1-9bc68551390a",
+    "name": "home - linkedin",
+    "commands": [{
+      "id": "b88090f9-c91a-4ede-8ee9-8e34b2a474ad",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8849d577-c335-49ee-8f83-9697b299dafe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5395b77-9abd-45fb-ad33-a463a6665d46",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) > .social",
+      "targets": [
+        ["css=a:nth-child(3) > .social", "css:finder"],
+        ["xpath=//img[@alt='linkedin link']", "xpath:img"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0d639c67-99f2-442a-a565-4125e4d21250",
+    "name": "home - github",
+    "commands": [{
+      "id": "1c8aadf7-5150-4236-829c-a641f35ff833",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d432f715-43fd-4035-b0eb-1cc4ba99e361",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43a95e54-a746-44e8-ae21-804a101efe40",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(4) > .social",
+      "targets": [
+        ["css=a:nth-child(4) > .social", "css:finder"],
+        ["xpath=//img[@alt='Github link']", "xpath:img"],
+        ["xpath=//a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d5628079-699d-4c61-b83a-daef1f709195",
+    "name": "blog - insta",
+    "commands": [{
+      "id": "14204d6d-dba3-49f2-9ab0-d31bea433a37",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/blog.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae853431-db90-44a8-a2b3-1599300816b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9e0af48-f3ae-4637-a6bc-4f581e61ff26",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) > .social",
+      "targets": [
+        ["css=a:nth-child(2) > .social", "css:finder"],
+        ["xpath=//img[@alt='instagram link']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fb474a0d-934a-4443-8977-cdc0d077b05a",
+    "name": "blog - linkedin",
+    "commands": [{
+      "id": "0954a9e0-72f3-49ba-989c-da01ddac89c6",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/blog.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ceb5a98-788c-422a-8a83-a0ba4102482d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c1a257a-dba5-4b47-9209-76e54ae3cb8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) > .social",
+      "targets": [
+        ["css=a:nth-child(3) > .social", "css:finder"],
+        ["xpath=//img[@alt='linkedin link']", "xpath:img"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "062e1d5a-aecf-4d45-a45a-987dcdbd7328",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d871724c-4671-4ef3-ac49-eb07f6b064d5",
+    "name": "blog - github",
+    "commands": [{
+      "id": "6ed8924a-a41f-4d70-a814-f38caa14d30a",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/blog.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee58d43f-4957-496f-af5c-151b1ab1c766",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "338a063f-d827-4b15-bde0-a8df50554335",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(4) > .social",
+      "targets": [
+        ["css=a:nth-child(4) > .social", "css:finder"],
+        ["xpath=//img[@alt='Github link']", "xpath:img"],
+        ["xpath=//a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3c432ccd-f31e-4c5c-8b04-84ee927317fe",
+    "name": "resume - insta",
+    "commands": [{
+      "id": "da06c125-ea72-4799-b23f-9fa2fa6e6d91",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/photography.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e61d7347-c48d-40b6-a76d-82f3e2aa3477",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b4442ae-5167-4310-8ada-f5af60e09260",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) > .social",
+      "targets": [
+        ["css=a:nth-child(2) > .social", "css:finder"],
+        ["xpath=//img[@alt='instagram link']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fb4f133a-3288-488f-a85a-592f7517459c",
+    "name": "resume - linkedin",
+    "commands": [{
+      "id": "bfcac753-dad9-48e1-8f72-07f7159eab03",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/photography.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2280a77e-d14a-4f2a-bae4-858a26dfb4d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3e937f3-0aef-4de1-929a-046392ce6b36",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) > .social",
+      "targets": [
+        ["css=a:nth-child(3) > .social", "css:finder"],
+        ["xpath=//img[@alt='linkedin link']", "xpath:img"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c166acd9-e195-4c83-bf05-8fade612b196",
+    "name": "resume - github",
+    "commands": [{
+      "id": "9e38025f-00b8-4dd9-b1cf-2443b9e0e4cb",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/photography.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ab76bb4-339c-4b48-83b4-4b5d0341805a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a68f87b1-44c2-4ee7-beed-c62ac84c061b",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(4) > .social",
+      "targets": [
+        ["css=a:nth-child(4) > .social", "css:finder"],
+        ["xpath=//img[@alt='Github link']", "xpath:img"],
+        ["xpath=//a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fe99e70e-d0b9-45c9-8300-9ae15cd14080",
+    "name": "photo - insta",
+    "commands": [{
+      "id": "9529bf43-a0eb-4ccf-a828-1b4b8a9c1bdc",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/photography.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f609323d-75df-44cc-b94f-19d09cf6ee20",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d14c1bfe-b686-469c-aeba-1b20b7efb510",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) > .social",
+      "targets": [
+        ["css=a:nth-child(2) > .social", "css:finder"],
+        ["xpath=//img[@alt='instagram link']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ec59553e-cb84-4e58-a8aa-a8d06dab9a89",
+    "name": "photo - linkedin",
+    "commands": [{
+      "id": "555b7775-c920-4791-93c9-ccb22012e85f",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/photography.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd194fc5-2efa-4625-9d17-a05bce25d3ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2de3666-0aab-4ec4-859f-da7aff3f24da",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) > .social",
+      "targets": [
+        ["css=a:nth-child(3) > .social", "css:finder"],
+        ["xpath=//img[@alt='linkedin link']", "xpath:img"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5d429e9f-45a4-4f58-9373-6967405f9a31",
+    "name": "photo - github",
+    "commands": [{
+      "id": "fe433127-806a-474a-9975-58dd0056cde4",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/photography.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4d40e49-96d7-4af6-b6f1-a68882234115",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32b64208-6efe-44d4-a308-801abdfd1dcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(4) > .social",
+      "targets": [
+        ["css=a:nth-child(4) > .social", "css:finder"],
+        ["xpath=//img[@alt='Github link']", "xpath:img"],
+        ["xpath=//a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "36f7a04b-49e1-40bd-b6f3-0f46bc538e09",
+    "name": "Home page links",
+    "commands": [{
+      "id": "360e4fa9-38fd-4c6f-b5d8-bc82e8ad32c5",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d25dd01-ca91-4118-807b-dd93857c99f3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d7aa91c-bc3b-4578-8716-b68301732973",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My boys over at Radiolab",
+      "targets": [
+        ["linkText=My boys over at Radiolab", "linkText"],
+        ["css=p:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My boys over at Radiolab')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.npr.org/podcasts/452538884/radiolab')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My boys over at Radiolab')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6f56d8b6-2fca-4b9e-a55c-31589f612ae8",
+    "name": "Blog article link",
+    "commands": [{
+      "id": "ef12922e-81c5-4e3c-a4c0-b0ac81d98d42",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/blog.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10dd2254-4e3f-4e60-a692-ea95743f8ba8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01fcee38-9e03-4ac1-8d14-3754aad597db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What Does The Internet Mean To You",
+      "targets": [
+        ["linkText=What Does The Internet Mean To You", "linkText"],
+        ["css=li:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'What Does The Internet Mean To You')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/2020/08/01/what-does-the-internet-mean-to-you.html')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'What Does The Internet Mean To You')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0736b077-a52c-4e88-b60d-ba8d34bb053b",
+    "name": "insta_link",
+    "commands": [{
+      "id": "41e29bbb-ef64-43f3-b01a-6e9ec38bf40c",
+      "comment": "",
+      "command": "open",
+      "target": "https://dic3jam.github.io/photography.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a18dc7b3-ef06-433c-a661-a9dd7f2baa6c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "956x1041",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df88ebd7-eeeb-4123-a4cc-e18824dc90af",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,343)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e47b6a8-b67f-4473-92bd-c74b59b31ced",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b954169-b55a-459a-8218-79038ec9f78d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.EmbeddedMedia",
+      "targets": [
+        ["css=.EmbeddedMedia", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.instagram.com/p/CC922iRJSBE/?utm_source=ig_embed')]", "xpath:href"],
+        ["xpath=//body/div/div[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7934",
+      "windowTimeout": 2000
+    }, {
+      "id": "8be7b26d-dff5-4034-bde0-c02315fba0ad",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7934}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9e591a6f-543c-444f-b126-ed67b8bcd1a4",
+    "name": "Social Media Tests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d871724c-4671-4ef3-ac49-eb07f6b064d5", "d5628079-699d-4c61-b83a-daef1f709195", "fb474a0d-934a-4443-8977-cdc0d077b05a", "0d639c67-99f2-442a-a565-4125e4d21250", "112deb0a-3e2c-40d0-be28-122ac6749f26", "55cebbe0-296a-4f69-81c1-9bc68551390a", "5d429e9f-45a4-4f58-9373-6967405f9a31", "fe99e70e-d0b9-45c9-8300-9ae15cd14080", "ec59553e-cb84-4e58-a8aa-a8d06dab9a89", "c166acd9-e195-4c83-bf05-8fade612b196", "3c432ccd-f31e-4c5c-8b04-84ee927317fe", "fb4f133a-3288-488f-a85a-592f7517459c"]
+  }, {
+    "id": "3dc9b01a-b93e-44e8-800b-9e3ed31df56d",
+    "name": "Other Tests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6f56d8b6-2fca-4b9e-a55c-31589f612ae8", "36f7a04b-49e1-40bd-b6f3-0f46bc538e09", "0736b077-a52c-4e88-b60d-ba8d34bb053b"]
+  }],
+  "urls": ["https://dic3jam.github.io/", "https://dic3jam.github.io/photography.html"],
+  "plugins": []
+}
