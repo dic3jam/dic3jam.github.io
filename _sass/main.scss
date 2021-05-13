@@ -8,7 +8,11 @@ background-color: #F87000;
 color: #FFC042;
 }
 
-a h2 {
+a h2#link {
 text-decoration: underline;
+}
+
+a h2#link:hover {
 color: #fc4503;
 }
+
