@@ -24,7 +24,7 @@ email: dic3jam@gmail.com
 description: #>- # this means to ignore newlines until "baseurl:"
 My name is James DiCesare, I am an aspiring Software Engineer, and a free-time photographer. This website is my foothold on the internet:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "dicejam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "dicejam.github.io.index.html" # the base hostname & protocol for your site, e.g. http://example.com
 Instagram: dic3jam
 github_username:  dic3jam
 Linkedin: James DiCesare
