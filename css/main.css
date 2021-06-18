@@ -1,18 +1,15 @@
 nav a {
   color: #F87000;
-  font-size: 1.5em;
-}
+  font-size: 1.5em; }
 
 nav a:hover {
   background-color: #F87000;
-  color: #FFC042;
-}
+  color: #FFC042; }
 
-a h2#link {
-  text-decoration: underline;
-}
+.link a h2 {
+  text-decoration: underline; }
 
-a h2#link:hover {
-  color: #fc4503;
-}
+.link a h2:hover {
+  color: #fc4503; }
+
 /*# sourceMappingURL=main.css.map */
