@@ -1,20 +1,27 @@
 //@import "{{ site.theme }}";
 
 nav a {
-color: #F87000;
-font-size: 1.5em;
-}
-
-nav a:hover {
-background-color: #F87000;
-color: #FFC042;
+    display: flex;
+    //color: #267CB9;
+    font-size: 1.5em;
+    flex-direction: column;
+    :hover {
+        //background-color: #F87000;
+        color: #F87000;
+    }   
 }
 
 .link {
-text-decoration: underline;
+    text-decoration: underline;
     :hover {
             color: #fc4503;
     }
 }
 
+ul {
+    padding-inline-start: 0px;
+    li {
+       list-style-type: none;
+    }
+}
 
